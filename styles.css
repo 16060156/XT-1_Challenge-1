@@ -1,0 +1,271 @@
+/* Global styles */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    background-color: #4F5973;
+    margin: 0;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+/* Font styles */
+.font-begin-einde {
+    font-family: Myriad Pro, sans-serif;
+    color: #FEFEFE;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.font-year {
+    font-family: Myriad Pro, sans-serif;
+    color: #FEFEFE;
+    font-size: 19px;
+    background-color: #4F5973;
+    display: inline;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+h2 {
+    margin: 10px 0px;
+    font-weight: normal;
+}
+
+.font-title {
+    font-family: Myriad Pro, sans-serif;
+    color: #3C3F42;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.font-description {
+    font-family: Roboto, sans-serif;
+    font-size: 13px;
+    line-height: 19px;
+    color: #3C3F42;
+    margin-bottom: 0;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: center;
+}
+
+/* Footer */
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+/*Section Timeline*/
+
+.line {
+    background-color: #FEFEFE;
+    width: 1px;
+    height: 6465px;
+    align-self: center;
+    position: absolute;
+    z-index: -1;
+}
+
+section {
+    padding: 0% 5%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container-timeline {
+    background-color: #FEFEFE;
+    width: 100%;
+    padding: 8% 5%;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    box-shadow: 0px 3px 6px rgba(0,0,0,0.32);
+}
+
+
+
+/* BREAKPOINTS */
+/* Mobile landscape (min-width 480px) */
+@media only screen and (min-width: 480px) {
+
+    img {
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+/*Section Timeline*/
+
+.line {
+    height: 4835px;
+}
+
+.container-timeline {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.intro {
+    min-width: 47.5%;
+    margin-right: 2.5%;
+}
+
+.font-description {
+    margin-left: 2.5%;
+    text-align: justify;
+}
+
+.intro, .font-description {
+    align-self: flex-start;
+}
+
+}
+
+
+
+/* Tablet-portrait (min-width 768px) */
+@media only screen and (min-width: 768px) {
+
+    img {
+        width: 100%;
+        margin-bottom: 5px;
+}
+
+/* Font styles */
+    .font-begin-einde {
+        font-size: 16px;
+}
+
+    .font-year {
+        font-size: 34px;
+        display: inline;
+        padding: 5px;
+        border-radius: 5px;
+}
+
+    h2 {
+        margin: 10px 0px;
+}
+
+    .font-title {
+        font-size: 43px;
+}
+
+    .font-description {
+        font-size: 16px;
+        line-height: 22px;
+}
+
+/*Section Timeline*/
+
+    .line {
+        height: 11150px;
+}
+
+    .container-timeline {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding: 5% 5%;
+}
+
+    .intro {
+        min-width: 100%;
+}
+
+    .font-description {
+        text-align: justify;
+        margin-left: 0;
+}
+
+}
+
+
+
+/* Laptops and wider (min-width 1200px) */
+@media only screen and (min-width: 1200px) {
+    
+    img {
+        width: 100%;
+        margin-bottom: 5px;
+}
+
+/* Font styles */
+    .font-begin-einde {
+        font-size: 18px;
+}
+
+    .font-year {
+        font-size: 37px;
+        display: inline;
+        padding: 5px;
+        border-radius: 5px;
+}
+
+    h2 {
+        margin: 10px 0px;
+}
+
+    .font-title {
+        font-size: 47px;
+}
+
+    .font-description {
+        font-size: 18px;
+        line-height: 27px;
+        text-align: justify;
+        column-count: 2;
+        column-gap: 1.5em;
+}
+
+/*Section Timeline*/
+
+    .line {
+        height: 11570px;
+}
+
+    .container-timeline {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding: 5% 5%;
+}
+
+    .intro {
+        min-width: 100%;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
